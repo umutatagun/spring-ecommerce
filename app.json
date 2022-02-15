@@ -1,0 +1,6 @@
+{
+  "name" : "umut-ecommerce",
+  "buildpacks" : [{
+    "url" : "heroku/gradle"
+  }]
+}
