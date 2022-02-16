@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-@PropertySource("classpath:application-${spring.profiles.active}.properties") // prop ayarları
+@PropertySource("classpath:application-${spring.profiles.active:default}.properties") // prop ayarları
 public class EcommerceApplication {
 
 	public static void main(String[] args) {
